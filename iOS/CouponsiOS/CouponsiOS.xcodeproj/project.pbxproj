@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0000D9F1D083EBA009C958A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000D9E1D083EBA009C958A /* AppDelegate.swift */; };
+		C0000DA11D083EBA009C958A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000DA01D083EBA009C958A /* ViewController.swift */; };
+		C0000DA41D083EBA009C958A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0000DA21D083EBA009C958A /* Main.storyboard */; };
+		C0000DA61D083EBA009C958A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0000DA51D083EBA009C958A /* Assets.xcassets */; };
+		C0000DA91D083EBA009C958A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0000DA71D083EBA009C958A /* LaunchScreen.storyboard */; };
+		C0000DB41D083EBA009C958A /* CouponsiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000DB31D083EBA009C958A /* CouponsiOSTests.swift */; };
+		C0000DBF1D083EBA009C958A /* CouponsiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0000DBE1D083EBA009C958A /* CouponsiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0000DB01D083EBA009C958A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0000D931D083EBA009C958A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0000D9A1D083EBA009C958A;
+			remoteInfo = CouponsiOS;
+		};
+		C0000DBB1D083EBA009C958A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0000D931D083EBA009C958A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0000D9A1D083EBA009C958A;
+			remoteInfo = CouponsiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0000D9B1D083EBA009C958A /* CouponsiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponsiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0000D9E1D083EBA009C958A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0000DA01D083EBA009C958A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0000DA31D083EBA009C958A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0000DA51D083EBA009C958A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0000DA81D083EBA009C958A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0000DAA1D083EBA009C958A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0000DAF1D083EBA009C958A /* CouponsiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouponsiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0000DB31D083EBA009C958A /* CouponsiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsiOSTests.swift; sourceTree = "<group>"; };
+		C0000DB51D083EBA009C958A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0000DBA1D083EBA009C958A /* CouponsiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouponsiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0000DBE1D083EBA009C958A /* CouponsiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsiOSUITests.swift; sourceTree = "<group>"; };
+		C0000DC01D083EBA009C958A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0000D981D083EBA009C958A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0000DAC1D083EBA009C958A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0000DB71D083EBA009C958A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0000D921D083EBA009C958A = {
+			isa = PBXGroup;
+			children = (
+				C0000D9D1D083EBA009C958A /* CouponsiOS */,
+				C0000DB21D083EBA009C958A /* CouponsiOSTests */,
+				C0000DBD1D083EBA009C958A /* CouponsiOSUITests */,
+				C0000D9C1D083EBA009C958A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0000D9C1D083EBA009C958A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0000D9B1D083EBA009C958A /* CouponsiOS.app */,
+				C0000DAF1D083EBA009C958A /* CouponsiOSTests.xctest */,
+				C0000DBA1D083EBA009C958A /* CouponsiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0000D9D1D083EBA009C958A /* CouponsiOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0000D9E1D083EBA009C958A /* AppDelegate.swift */,
+				C0000DA01D083EBA009C958A /* ViewController.swift */,
+				C0000DA21D083EBA009C958A /* Main.storyboard */,
+				C0000DA51D083EBA009C958A /* Assets.xcassets */,
+				C0000DA71D083EBA009C958A /* LaunchScreen.storyboard */,
+				C0000DAA1D083EBA009C958A /* Info.plist */,
+			);
+			path = CouponsiOS;
+			sourceTree = "<group>";
+		};
+		C0000DB21D083EBA009C958A /* CouponsiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0000DB31D083EBA009C958A /* CouponsiOSTests.swift */,
+				C0000DB51D083EBA009C958A /* Info.plist */,
+			);
+			path = CouponsiOSTests;
+			sourceTree = "<group>";
+		};
+		C0000DBD1D083EBA009C958A /* CouponsiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0000DBE1D083EBA009C958A /* CouponsiOSUITests.swift */,
+				C0000DC01D083EBA009C958A /* Info.plist */,
+			);
+			path = CouponsiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0000D9A1D083EBA009C958A /* CouponsiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0000DC31D083EBA009C958A /* Build configuration list for PBXNativeTarget "CouponsiOS" */;
+			buildPhases = (
+				C0000D971D083EBA009C958A /* Sources */,
+				C0000D981D083EBA009C958A /* Frameworks */,
+				C0000D991D083EBA009C958A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouponsiOS;
+			productName = CouponsiOS;
+			productReference = C0000D9B1D083EBA009C958A /* CouponsiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0000DAE1D083EBA009C958A /* CouponsiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0000DC61D083EBA009C958A /* Build configuration list for PBXNativeTarget "CouponsiOSTests" */;
+			buildPhases = (
+				C0000DAB1D083EBA009C958A /* Sources */,
+				C0000DAC1D083EBA009C958A /* Frameworks */,
+				C0000DAD1D083EBA009C958A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0000DB11D083EBA009C958A /* PBXTargetDependency */,
+			);
+			name = CouponsiOSTests;
+			productName = CouponsiOSTests;
+			productReference = C0000DAF1D083EBA009C958A /* CouponsiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0000DB91D083EBA009C958A /* CouponsiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0000DC91D083EBA009C958A /* Build configuration list for PBXNativeTarget "CouponsiOSUITests" */;
+			buildPhases = (
+				C0000DB61D083EBA009C958A /* Sources */,
+				C0000DB71D083EBA009C958A /* Frameworks */,
+				C0000DB81D083EBA009C958A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0000DBC1D083EBA009C958A /* PBXTargetDependency */,
+			);
+			name = CouponsiOSUITests;
+			productName = CouponsiOSUITests;
+			productReference = C0000DBA1D083EBA009C958A /* CouponsiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0000D931D083EBA009C958A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Level Company";
+				TargetAttributes = {
+					C0000D9A1D083EBA009C958A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C0000DAE1D083EBA009C958A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C0000D9A1D083EBA009C958A;
+					};
+					C0000DB91D083EBA009C958A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C0000D9A1D083EBA009C958A;
+					};
+				};
+			};
+			buildConfigurationList = C0000D961D083EBA009C958A /* Build configuration list for PBXProject "CouponsiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0000D921D083EBA009C958A;
+			productRefGroup = C0000D9C1D083EBA009C958A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0000D9A1D083EBA009C958A /* CouponsiOS */,
+				C0000DAE1D083EBA009C958A /* CouponsiOSTests */,
+				C0000DB91D083EBA009C958A /* CouponsiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0000D991D083EBA009C958A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0000DA91D083EBA009C958A /* LaunchScreen.storyboard in Resources */,
+				C0000DA61D083EBA009C958A /* Assets.xcassets in Resources */,
+				C0000DA41D083EBA009C958A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0000DAD1D083EBA009C958A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0000DB81D083EBA009C958A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0000D971D083EBA009C958A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0000DA11D083EBA009C958A /* ViewController.swift in Sources */,
+				C0000D9F1D083EBA009C958A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0000DAB1D083EBA009C958A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0000DB41D083EBA009C958A /* CouponsiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0000DB61D083EBA009C958A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0000DBF1D083EBA009C958A /* CouponsiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0000DB11D083EBA009C958A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0000D9A1D083EBA009C958A /* CouponsiOS */;
+			targetProxy = C0000DB01D083EBA009C958A /* PBXContainerItemProxy */;
+		};
+		C0000DBC1D083EBA009C958A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0000D9A1D083EBA009C958A /* CouponsiOS */;
+			targetProxy = C0000DBB1D083EBA009C958A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0000DA21D083EBA009C958A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0000DA31D083EBA009C958A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0000DA71D083EBA009C958A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0000DA81D083EBA009C958A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0000DC11D083EBA009C958A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0000DC21D083EBA009C958A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0000DC41D083EBA009C958A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CouponsiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lvl.CouponsiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0000DC51D083EBA009C958A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CouponsiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lvl.CouponsiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0000DC71D083EBA009C958A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CouponsiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lvl.CouponsiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouponsiOS.app/CouponsiOS";
+			};
+			name = Debug;
+		};
+		C0000DC81D083EBA009C958A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CouponsiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lvl.CouponsiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouponsiOS.app/CouponsiOS";
+			};
+			name = Release;
+		};
+		C0000DCA1D083EBA009C958A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CouponsiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lvl.CouponsiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CouponsiOS;
+			};
+			name = Debug;
+		};
+		C0000DCB1D083EBA009C958A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CouponsiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lvl.CouponsiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CouponsiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0000D961D083EBA009C958A /* Build configuration list for PBXProject "CouponsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0000DC11D083EBA009C958A /* Debug */,
+				C0000DC21D083EBA009C958A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0000DC31D083EBA009C958A /* Build configuration list for PBXNativeTarget "CouponsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0000DC41D083EBA009C958A /* Debug */,
+				C0000DC51D083EBA009C958A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0000DC61D083EBA009C958A /* Build configuration list for PBXNativeTarget "CouponsiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0000DC71D083EBA009C958A /* Debug */,
+				C0000DC81D083EBA009C958A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0000DC91D083EBA009C958A /* Build configuration list for PBXNativeTarget "CouponsiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0000DCA1D083EBA009C958A /* Debug */,
+				C0000DCB1D083EBA009C958A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0000D931D083EBA009C958A /* Project object */;
+}
